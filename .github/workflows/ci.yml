@@ -23,8 +23,8 @@ jobs:
 
       - name: Running the unit test suite
         run: npm run test -- --coverage
-  Style:
-    name: Formatting
+  Formatting:
+    name: Style
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

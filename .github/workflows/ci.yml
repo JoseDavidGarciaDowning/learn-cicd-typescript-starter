@@ -37,3 +37,8 @@ jobs:
         run: npm ci
       - name: Running formatting styles
         run: npm run format:check
+      - name: Running eslint
+        run: npm run lint
+  
+      
+    
